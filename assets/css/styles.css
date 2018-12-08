@@ -6,7 +6,7 @@
 }
 
 body{
-    background-image: url("folk-pattern.png");/*set repeat image*/
+    background-image: url("../images/tex2res5.png");/*set repeat image*/
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     
 }
@@ -56,7 +56,7 @@ html, body {
 .name   {
     font-size: 24px;
     width: 30%;
-    background-color:#4aaaa5;
+    background-color:#4285f4;
     color: #fff;
     text-align: center;
     /*padding-left: ;  /*first letter align with About/Contact/Portfolio*/
@@ -82,7 +82,7 @@ td > a{
 }
 
 td > a:hover{
-    color:#4aaaa5;
+    color:#4285f4;
 }
 
 
@@ -119,7 +119,7 @@ td > a:hover{
     padding-top: 1em;
     width: 30%;
     background-color:#fff;
-    color: #4aaaa5;
+    color: #4285f4;
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
@@ -127,16 +127,25 @@ td > a:hover{
     padding-top: 30px;
 }
 .words img{
-    margin: 0 25px 20px 0;
+    margin: 0 25px 0 0;
     float: left;
     width:175px;
     height: 225px;
     background-color: #ccc;
 }
 
-.words p{
-    line-height: 1.6;
+/*content spacing and paragraph indent*/
+.top,
+.indent{
+    line-height: 2;
 }
+.top{
+    margin-top:-10px;
+}
+.indent{
+    text-indent: 50px;
+}
+
 
 
 /* ##############Portfolio.html styling #################*/
@@ -151,13 +160,10 @@ td > a:hover{
 .photo{
     position: relative;
     margin: 15px 40px 15px 0px;
-    /*margin-top:15px;
-    margin-right: 40px;*/
     float: left;
     width: 275px;
     height: 275px;
-    border: 1px solid red;
-    background-color: grey;
+    background-color: #ccc;
 
 }
 .photo > img {
@@ -166,17 +172,23 @@ td > a:hover{
 .photo > div{
     width: 100%;
     height: 60px;
-    background-color: #4aaaa5;
-    color: #fff;
+    background-color: #4285f4;
     text-align: center;
     padding-top: 1em;
-    font-size: 18px;
+    font-size: 20px;
     bottom:10px;
     position: absolute;
+    font-weight: bold;
 
 }
 
-
+.folio-link:link{
+    text-decoration: none;
+    color:#fff;
+}
+.folio-link:hover{
+    color: #ccc;
+}
 /* ##############for the contact.html styling #################*/
 
 
@@ -201,7 +213,7 @@ input{          /*the input fields*/
 #btn{
    height: 45px;
    width: 120px; 
-   background-color: #4aaaa5;
+   background-color: #4285f4;
    color: #fff;
    border: none;
    cursor: pointer;
@@ -222,7 +234,7 @@ input{          /*the input fields*/
     height: 60px;
     color: #fff;
     background-color: #777;
-    border-top: 10px solid #4aaaa5;
+    border-top: 10px solid #4285f4;
 }
 .footer-info{
     width: 960px;
